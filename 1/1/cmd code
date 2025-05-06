@@ -1,0 +1,10 @@
+cmd 1
+javac *.java
+rmic AddServerImpl
+rmiregistry
+
+cmd 2
+java AddServer
+
+cmd 3
+java AddClient 127.0.0.1 num1 num2

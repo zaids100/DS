@@ -1,0 +1,3 @@
+cmd 1 
+    javac -cp $MPJ_HOME/lib/mpj.jar DistributedSum.java
+    mpjrun.sh -np 4 DistributedSum

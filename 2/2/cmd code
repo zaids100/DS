@@ -1,0 +1,10 @@
+cmd 1
+idlj -fall Reverse.idl
+javac *.java
+orbd -ORBInitialPort 1050
+
+cmd 2
+java ReverseServer -ORBInitialPort 1050 -ORBInitialHost localhost
+
+cmd 3
+java ReverseClient -ORBInitialPort 1050 -ORBInitialHost localhost

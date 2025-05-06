@@ -1,0 +1,6 @@
+cmd 1
+javac *.java
+java BullyAlgorithm
+
+cmd 2
+java RingAlgorithm
